@@ -1,0 +1,28 @@
+.navbar {
+
+    background-color: #343a40;
+    
+    }
+    
+/* .navbar .navbar-brand { I
+    color: #fff;
+} */
+    /* Style the navigation links */
+    
+    .navbar .nav-link {
+    
+    color: #fff limportant; /* White text color / ; / Add margin between links */
+    
+    text-decoration: none limportant; /* Remove underline */
+    margin-right: 20px;
+    
+    }
+    /* Add media query for small screens */
+    @media (max-width: 576px) {
+    
+    .navbar .nav-link {
+    
+    margin-right: 0; /* Remove margin for small screens */
+    
+    }
+    }
